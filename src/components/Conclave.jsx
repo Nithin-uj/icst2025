@@ -378,7 +378,7 @@ function Conclave() {
                 <p>For any queries:</p>
                 <p>E-mail: nie_conclave@nie.ac.in</p>
                 <div className='inline'>
-                  <p className='mr-2'>Phone NO: +91 9972695511</p>
+                  <p className='mr-2'>Phone No. : +91 9972695511</p>
                   <p className='ml-[90px] md:ml-[70px] lg:ml-[122px]'>+91 9036949487</p>
                 </div>
               </div>
