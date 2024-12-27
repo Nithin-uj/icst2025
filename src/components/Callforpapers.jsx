@@ -81,18 +81,19 @@ function Callforpapers() {
             Publication
           </h2>
           <p className="mx-4 my-3 text-justify">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All the Registered
-            and Selected Papers will be published in SCOPUS/WoS INDEXED JOURNAL
-            following the routine editorial process of the respective journal.
-            <br /> 1. Journal of Institution of Engineers (India) Series: A to D
-            (Springer)
-            <br />
-            2. Sigma Journal of Engineering and Natural Sciences [Scopus/WoS
-            Indexed].All the remaining accepted & presented papers in the
-            conference will be communicated to Conference Proceedings/Book
-            Chapter, the details about which will be updated on the conference
-            website.
+              
+              All the Selected and Registered Papers will be published as per the Authors' consent in the following manner:
+              <br />
+              <b>A. In Scopus/WoS Indexed Journal:</b> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;1. Journal of Institution of Engineers (India) Series: A to D (Springer) <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;2. Sigma Journal of Engineering and Natural Sciences. <br />
+              <br />
+              <b>B. Springer Conference Proceedings of ICST 2025 (Scopus Indexed):</b> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers, and only papers that pass these checks will be published. <br />
+              <br />
+              <b>Note:</b> Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication. All papers must be on the Theme of Sustainable Technology. Please clearly indicate it in the Abstract.
           </p>
+
           <a
             className="mx-4 bg-green-900 text-white p-2 px-4 rounded"
             href="https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/Call_F_Papers/GUIDELINE_FOR_SUBMISSION.pdf?v20240429.1"

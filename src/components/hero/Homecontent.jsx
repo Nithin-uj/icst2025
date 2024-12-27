@@ -12,6 +12,8 @@ import Sponlogos from "./Sponlogos";
 import group35 from "../../assets/Group 35.svg";
 import FileDownloader from "../../components/Download";
 import broucher from "../../assets/Conference.pdf";
+import conference from "../../assets/conference.png";
+import { Link } from 'react-router-dom';
 
 function Homecontent() {
   return (
@@ -45,7 +47,7 @@ function Homecontent() {
         />
         <div className="text-black relative">
           <div className="md:flex m-10 md:flex-wrap justify-center text-white md:justify-evenly">
-            <div className="bg-gogreen md:w-72 m-1 rounded-md shadow-2xl shadow-slate-600 p-5">
+            <div className=" bg-gogreen md:w-72 m-1 rounded-md shadow-2xl shadow-slate-600 p-5">
               <div className="flex justify-center">
                 <img src={calander} alt="Calander" className="p-5" />
                 <div className="flex flex-col justify-center">
@@ -53,7 +55,14 @@ function Homecontent() {
                   <div>February</div>
                   <div>19 & 20, 2025</div>
                 </div>
+                
               </div>
+              <div className="flex justify-center mt-8 ">
+              <button class="bg-gogreen4 rounded-lg px-2 py-1 hover:text-logo2">
+                <a href="#dates">view Important Dates</a>
+                </button>
+              </div>
+              
             </div>
             <div className="bg-gogreen md:w-72 m-1 rounded-md shadow-2xl shadow-slate-600 p-5">
               <div className="flex justify-center">
@@ -66,6 +75,13 @@ function Homecontent() {
                   </div>
                 </div>
               </div>
+              <div className="flex justify-center mt-4">
+                <button class="bg-gogreen4 rounded-lg px-2 py-1 hover:text-logo2">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/The+National+Institute+of+Engineering+South+Campus+(NIE+South)/@12.283902,76.640659,15z/data=!4m6!3m5!1s0x3baf65561e102919:0xf947b18cc5ad3d88!8m2!3d12.2838184!4d76.6414748!16zL20vMDRqdG5k?hl=en&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D">
+                 View Location
+                  </a>
+                  </button>
+              </div>
             </div>
             <div className="bg-gogreen md:w-72 m-1 rounded-md shadow-2xl shadow-slate-600 p-5">
               <div className="flex justify-center">
@@ -77,16 +93,25 @@ function Homecontent() {
                   </div>
                 </div>
               </div>
+              <div className="flex justify-center mt-8 ">
+                <button class="bg-gogreen4 rounded-lg px-2 py-1 hover:text-logo2">
+                  <a href="https://www.ieindia.org/" target="_blank" rel="noopener noreferrer">View IEI Website</a> </button>
+              </div>
             </div>
             <div className="bg-gogreen md:w-72 m-1 rounded-md shadow-2xl shadow-slate-600 p-5">
               <div className="flex justify-center">
-                {/* <img src={globe} alt="Approve" className="p-5" /> */}
-                <div className="flex flex-col justify-center">
+              <img src={conference} alt="Calander" class="w-32 h-32 p-6 object-cover"/>
+              <div className="flex flex-col justify-center">
                   <b>Conclave</b>
                   <div>
                   International conclave on Sustainable technologies
                   </div>
                 </div>
+              </div>
+              <div className="flex justify-center mt-4 ">
+              <button class="bg-gogreen4 rounded-lg px-2 py-1 hover:text-logo2">
+                <Link to="/conclave">view Conclave
+                </Link></button>
               </div>
             </div>
           </div>
@@ -157,7 +182,7 @@ function Homecontent() {
         </div>
       </div>
 
-      <div className="text-gogreen text-2xl text-center font-semibold my-3">
+      <div id="dates" className="text-gogreen text-2xl text-center font-semibold my-3">
         Important Dates
       </div>
       <div className="m-4 flex justify-center">
