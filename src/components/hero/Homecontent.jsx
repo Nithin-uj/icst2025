@@ -174,12 +174,12 @@ function Homecontent() {
             </div>
           </div>
         </div>
-        <div className="text-slate-900">
+        {/* <div className="text-slate-900">
           <div className="text-gogreen text-2xl font-bold text-center my-4 md:my-8">
             Meet Our Sponsors
           </div>
           <CardSlider />
-        </div>
+        </div> */}
       </div>
 
       <div id="dates" className="text-gogreen text-2xl text-center font-semibold my-3">
