@@ -84,14 +84,18 @@ function Callforpapers() {
               
               All the Selected and Registered Papers will be published as per the Authors' consent in the following manner:
               <br />
-              <b>A. In Scopus/WoS Indexed Journal:</b> <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;1. Journal of Institution of Engineers (India) Series: A to D (Springer) <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;2. Sigma Journal of Engineering and Natural Sciences. <br />
+              <br/>
+              <b>A. In Scopus/WoS Indexed Journal:</b><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;1. Journal of Institution of Engineers (India) Series: A to D (Springer)<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;2. Sigma Journal of Engineering and Natural Sciences.<br />
               <br />
               <b>B. Springer Conference Proceedings of ICST 2025 (Scopus Indexed):</b> <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers, and only papers that pass these checks will be published. <br />
+              Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers, and only papers that pass these checks will be published.
+               <br />
+              Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.
               <br />
-              <b>Note:</b> Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication. All papers must be on the Theme of Sustainable Technology. Please clearly indicate it in the Abstract.
+              <br/>
+              <b>Note:</b>  All papers must be on the Theme of Sustainable Technology. Please clearly indicate it in the Abstract.
           </p>
 
           <a
