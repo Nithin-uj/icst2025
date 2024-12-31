@@ -41,7 +41,7 @@ function Callforpapers() {
             >
               https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICST2025
             </a>
-            &nbsp;on or before 31st December 2024. The manuscript should follow
+            &nbsp;on or before 10th January 2025. The manuscript should follow
             the standard IEI template{" "}
             <a
               href="https://www.ieindia.org/webui/iei-home.aspx"

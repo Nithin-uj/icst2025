@@ -14,6 +14,7 @@ import FileDownloader from "../../components/Download";
 import broucher from "../../assets/Conference.pdf";
 import conference from "../../assets/conference.png";
 import { Link } from 'react-router-dom';
+import Flashnews from "./Flashnews"
 
 function Homecontent() {
   return (
@@ -45,6 +46,7 @@ function Homecontent() {
           alt=""
           className="float-start absolute left-0 w-52 md:w-64 -bottom-3 md:-bottom-5"
         />
+        <Flashnews/>
         <div className="text-black relative">
           <div className="md:flex m-10 md:flex-wrap justify-center text-white md:justify-evenly">
             <div className=" bg-gogreen md:w-72 m-1 rounded-md shadow-2xl shadow-slate-600 p-5">
