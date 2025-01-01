@@ -6,6 +6,19 @@ import noimage from "../../assets/noimage.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Grid } from "swiper/modules";
 import "swiper/swiper-bundle.css";
+import image1 from "../../assets/student/1thanusha.jpg"
+import image2 from "../../assets/student/2vikas.jpg"
+import image3 from "../../assets/student/3angelpaul.jpg"
+import image4 from "../../assets/student/4rohith.jpg"
+import image5 from "../../assets/student/5anirudh.jpg"
+import image6 from "../../assets/student/6suraj.jpg"
+import image7 from "../../assets/student/7vimal.jpg"
+import image8 from "../../assets/student/8prasthuthi.jpg"
+import image9 from "../../assets/student/9ananya.jpg"
+import image10 from "../../assets/student/10sanmith.jpg"
+import image11 from "../../assets/student/11smaran.jpg"
+import image12 from "../../assets/student/12joel.jpg"
+import image13 from "../../assets/student/13sinchana.jpg"
 
 function Section4() {
   const [tabs, setTabs] = useState(1);
@@ -22,7 +35,7 @@ function Section4() {
         >
           Advisory Committee
         </button>
-        {/* <button
+        <button
           className={`${
             tabs == 2 && "border-b-4 border-b-orange-400 font-bold"
           }`}
@@ -32,7 +45,7 @@ function Section4() {
         >
           Student committee
         </button>
-        <button
+        {/* <button
           className={`${
             tabs == 3 && "border-b-4 border-b-orange-400 font-bold"
           }`}
@@ -57,7 +70,11 @@ const rendertabs = (tabs) => {
         </div>
       );
     case 2:
-      return <div></div>;
+      return (
+        <div>
+          <Student/>
+        </div>
+      );
     case 3:
       return <div></div>;
     default:
@@ -443,5 +460,163 @@ const Advisory = () => {
     </div>
   );
 };
+
+const Student = () => {
+  const data = [
+    {
+      name: "Thanusha A Patel",
+      department: "Dept. of AI ML, NIE, Mysuru",
+      imglink: image1,
+    },
+    {
+      name: "Vikas S",
+      department: "Dept. of CSE, NIE, Mysuru",
+      imglink: image2,
+    },
+    {
+      name: "Angel Paul",
+      department: "Dept. of AI ML, NIE, Mysuru",
+      imglink: image3,
+    },
+    {
+      name: "Rohith N",
+      department: "Dept. of MECH, NIE, Mysuru",
+      imglink: image4,
+    },
+    {
+      name: "Anirudh Bharagav",
+      department: "Dept. of MECH, NIE, Mysuru",
+      imglink: image5,
+    },
+    {
+      name: "Suraj M Gargeya",
+      department: "Dept. of MECH, NIE, Mysuru",
+      imglink: image6,
+    },
+    {
+      name: "Vimal K A",
+      department: "Dept. of CSE, NIE, Mysuru",
+      imglink: image7,
+    },
+    {
+      name: "Prasthuthi Gowda C R",
+      department: "Dept. of MECH, NIE, Mysuru",
+      imglink: image8,
+    },
+    {
+      name: "Ananya K A",
+      department: "Dept. of ECE, NIE, Mysuru",
+      imglink: image9,
+    },
+    {
+      name: "Sanmith Ravinarayan Rao",
+      department: "Dept. of ECE, NIE, Mysuru",
+      imglink: image10,
+    },
+    {
+      name: "Smaran A",
+      department: "Dept. of CSE, NIE, Mysuru",
+      imglink: image11,
+    },
+    {
+      name: "Joel Babu",
+      department: "Dept. of MECH, NIE, Mysuru",
+      imglink: image12,
+    },
+    {
+      name: "Sinchana G",
+      department: "Dept. of CSE, NIE, Mysuru",
+      imglink: image13,
+    },
+    
+  ];
+  const slides = Array.from({ length: 12 }, (_, i) => `Item ${i + 1}`);
+  //   return <Slides data={data}/>
+  return (
+    <div className="m-2">
+      <Swiper
+        modules={[Grid]}
+        spaceBetween={10}
+        grid={{
+          rows: 2,
+          fill: "row",
+        }}
+        breakpoints={{
+          // Mobile screens (default)
+          0: {
+            slidesPerView: 1, // 1 column
+            grid: { rows: 2}, // 2 rows
+          },
+          // Tablets
+          640: {
+            slidesPerView: 3, // 2 columns
+            grid: { rows: 2 }, // 2 rows
+          },
+          // Desktops
+          1024: {
+            slidesPerView: 4, // 3 columns
+            grid: { rows: 2 }, // 2 rows
+          },
+        }}
+        //   slidesPerView={4}
+        loop={false}
+        className="mySwiper"
+      >
+        {data.map((card, index) => (
+          <SwiperSlide
+            key={index}
+            className="flex items-center justify-center text-black"
+          >
+            {console.log(index)}
+            <div className="h-80 md:h-80 md:p-3">
+              <div className="bg-gogreen4 text-white shadow-lg rounded-lg w-[95%] h-full md:w-60 p-2 md:p-3 mx-auto hover:md:scale-105 transition-transform duration-300">
+                <div className="font-semibold text-center">{card.type}</div>
+                <div className="h-full flex flex-col justify-around">
+                  <div className="flex justify-center overflow-hidden">
+                    <img
+                      src={!!card.imglink ? card.imglink : noimage}
+                      className="rounded-full h-36 w-44 md:w-36"
+                      alt=""
+                      onerror={noimage}
+                    />
+                  </div>
+                  <div>
+                    <h2 className="text-sm md:text-md font-semibold text-center">
+                      {card.name}
+                    </h2>
+                    <div className="text-sm md:text-md text-center">
+                      {card.designation}
+                    </div>
+                    <div className="text-sm md:text-md text-center">
+                      {card.department}
+                    </div>
+                    {!!card.email && (
+                      <div className="text-sm md:text-md text-center">
+                        <span className="hidden md:inline">Email : </span>
+                        <a
+                          href={`mailto:${card.email}`}
+                          className="text-orange-300"
+                        >
+                          {card.email}
+                        </a>
+                      </div>
+                    )}
+                    {!!card.phone && (
+                      <div className="text-sm md:text-md text-center">
+                        <span className="hidden md:inline">Phone No. : </span>
+                        {card.phone}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  );
+};
+
 
 export default Section4;
