@@ -16,13 +16,13 @@ const FlashNews = () => {
   }, [newsList.length]);
 
   return (
-    <div className="bg-gr text-xl from-green-700 to-green-500 text-green-800 flex justify-center mt-3">
+    <div className=" text-green-800 flex justify-center mt-3">
       <div className="flex items-center space-x-3 animate-pulse duration-150">
-        <div className="">
+        <div className="ms-3">
         🌳
         </div>
-        <strong className="font-bold text-xl">Latest update :</strong>
-        <span className="text-xl md:text-base">{newsList[currentIndex]}</span>
+        <strong className="font-bold text-sm md:text-xl w-auto hidden md:inline">Latest update :</strong>
+        <span className="text-sm md:text-xl">{newsList[currentIndex]}</span>
       </div>
     </div>
   );
