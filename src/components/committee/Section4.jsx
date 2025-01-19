@@ -418,7 +418,7 @@ const Advisory = () => {
                   <div className="flex justify-center overflow-hidden">
                     <img
                       src={!!card.imglink ? card.imglink : noimage}
-                      className="rounded-full w-44 md:w-36"
+                      className="rounded-full w-36 h-36 md:w-36 md:h-36"
                       alt=""
                       onerror={noimage}
                     />

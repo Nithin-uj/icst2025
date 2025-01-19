@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const TrackPopup = ({ track, title, description, points, image }) => {
+const TrackPopup = ({ track, title, description, points, keynote, image }) => {
   const [isPopupVisible, setPopupVisible] = useState(false);
 
   const showPopup = () => setPopupVisible(true);
@@ -29,6 +29,10 @@ const TrackPopup = ({ track, title, description, points, image }) => {
           <p className="text-white text-xs font-normal font-['Poppins'] mb-4">
             {description}
           </p>
+          {/* <div className="justify-begin">
+              <h3 className="text-white font-semibold"> Keynote Speaker: </h3>
+              <h3 className="text-white">  {keynote}</h3>
+          </div> */}
           <div className="flex justify-end">
             <button 
               onClick={showPopup}

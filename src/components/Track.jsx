@@ -34,6 +34,7 @@ const TRACK_CARDS = [
       "Fuel Trends, Pricing, and Availability",
       "Emissions Control Technologies",
     ],
+    keynote: "Prof. Dr. Stephan Weyers",
     image: Track1,
   },
   {
@@ -62,6 +63,7 @@ const TRACK_CARDS = [
       "Automated Construction",
       "Robots for Inspection and Maintenance",
     ],
+    keynote: "Prof. Dr. Björn Schäfer",
     image: Track2,
   },
   {
@@ -92,6 +94,7 @@ const TRACK_CARDS = [
       "Radiation Shielding Materials",
       "Electrochemical Sensors and Supercapacitors",
     ],
+    keynote:"",
     image: Track3,
   },
   {

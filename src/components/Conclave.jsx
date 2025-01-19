@@ -235,7 +235,11 @@ function Conclave() {
         <p className='m-6 md:m-10 text-xl md:text-xl'>In our rapidly evolving world, sustainable technology is becoming essential for addressing pressing environmental challenges. Non-renewable energy sources, while still prominent, are finite and contribute significantly to greenhouse gas emissions and climate change. Sustainable technology offers renewable and environmentally responsible alternatives that can reduce these impacts and support a healthier planet.</p>
 
         <p className='m-6 md:m-10 text-xl md:text-xl'>The Clean Fuels International Conclave 2022, was organized by NIE on November 2-3 at Silent Shores Convention Centre in Mysuru, India. It was dedicated to exploring the theme of the evolving biofuel ecosystem in India and the growing investment opportunities within it. The event was further enriched by the valuable international collaborations established through partnerships with Tech4Fuels, OWI, and the FH Dortmund University of Applied Sciences and Arts.</p>
-
+        <div className='flex justify-center items-center'>
+        {/* <button className="bg-gradient-to-r from-green-800 to-green-600 text-white text-2xl rounded-full px-10 py-4 m-2">
+        Register
+        </button> */}
+      </div>
         <div className='text-3xl md:text-5xl flex justify-center items-center border-y-[3px] border-black p-2 md:p-4 mx-5 md:mx-10 m-10 md:m-14 text-[#d39609]'>
           ICST 2025 Conclave
         </div>
@@ -364,6 +368,7 @@ function Conclave() {
           ))}
         </Slider>
       </div>
+      
 
       <div className='flex justify-center items-center my-20'>
         <div className='bg-[#d9d9d9] h-[750px] md:h-[400px]  w-[90%] lg:w-[80%] rounded-2xl'>

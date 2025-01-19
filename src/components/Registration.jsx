@@ -100,12 +100,26 @@ function Registration() {
           </div>
         </div>
       </div>
-      <div className="my-2 mx-2 md:mx-40 border rounded-md border-green-800 p-2">
-        <b className="text-green-950">Note :</b>
-        <ul className="list-disc pl-5 text-green-900">
-        <li>Early bird registration ends on 31st January 2025</li>
-        <li>Fees spcified are applicable for each attendee</li></ul>
-      </div>
+      <div className="flex flex-col md:flex-row justify-between items-center w-full">
+  {/* Note Section */}
+  <div className="md:w-1/2 border rounded-md border-green-800 mx-4 lg:mx-48 p-4"> 
+    <b className="text-green-950">Note :</b>
+    <ul className="list-disc pl-5 text-green-900">
+      <li>Early bird registration ends on 31st January 2025</li>
+      <li>Fees specified are applicable for each attendee</li>
+    </ul>
+  </div>
+
+  {/* Button Section */}
+  <div className="md:w-1/2 flex justify-center lg:justify-start  items-center"> 
+    <button className="bg-gradient-to-r from-green-800 to-green-600 text-white text-2xl rounded-full px-10 py-4 m-2">
+      <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/tWPVg4RNquTXx5EXA">
+      Register
+      </a>
+    </button>
+  </div>  
+</div>
+
       <div>
         <hr className="border border-black border-dotted my-2 mx-20" />
         <div>

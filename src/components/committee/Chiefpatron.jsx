@@ -53,7 +53,7 @@ const Slides = ({ data }) => {
                 <div className="flex justify-center">
                   <img
                     src={!!card.imglink ? card.imglink : noimage}
-                    className="rounded-full w-44 md:w-36"
+                    className="rounded-full w-44 h-44 md:w-36 md:h-36"
                     alt=""
                     onerror={noimage}
                   />
