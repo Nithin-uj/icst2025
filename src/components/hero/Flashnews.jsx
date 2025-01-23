@@ -37,7 +37,7 @@ const FlashNews = () => {
       {showLink && ( // Conditionally render the link
         <div className="mt-2 animate-pulse duration-150"> {/* Added animation to the link as well */}
           <span className="text-sm md:text-xl">
-            For conference registration,{" "}
+            For Conference registration,{" "}
             <a
               href="https://forms.gle/tWPVg4RNquTXx5EXA"
               target="_blank"
@@ -46,6 +46,31 @@ const FlashNews = () => {
             >
               click here
             </a>
+          </span>
+        </div>
+        
+        
+        
+      )}
+      {showLink && ( // Conditionally render the link
+        <div className="mt-2 animate-pulse duration-150"> {/* Added animation to the link as well */}
+          <span className="text-sm md:text-xl">
+            For Conclave registration,{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfgfD4s1206cag5nlLotddp59iX4IcpkBfhLG0EPdtvaWXkeg/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-600 underline hover:text-green-900"
+            >
+              click here
+            </a>
+          </span>
+        </div>
+      )}
+      {showLink && ( // Conditionally render the link
+        <div className="mt-2 animate-pulse duration-150"> {/* Added animation to the link as well */}
+          <span className="text-sm md:text-xl">
+              Notification of Acceptance will be communicated to the Corresponding Author by Monday 27 Jan 2025...
           </span>
         </div>
       )}

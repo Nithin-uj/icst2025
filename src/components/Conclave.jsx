@@ -57,8 +57,8 @@ const RegistrationData = [
     amount: '₹ 2000'
   },
   {
-    title: 'Research Organization & NGOs',
-    description: 'Scientists, Research Fellows, Scholars, Technologists, Non Government Organizations, etc.',
+    title: 'Research Organization, NGOs, Academia',
+    description: 'Faculty from academic institutions',
     amount: '₹ 1500'
   },
   {
@@ -67,8 +67,8 @@ const RegistrationData = [
     amount: '₹ 1000'
   },
   {
-    title: 'Associate Sponsors',
-    description: 'Faculty from Academic Institutions',
+    title: 'Students',
+    description: 'Students from all Academic Institutions',
     amount: '₹ 500'
   }
 ]
@@ -236,9 +236,12 @@ function Conclave() {
 
         <p className='m-6 md:m-10 text-xl md:text-xl'>The Clean Fuels International Conclave 2022, was organized by NIE on November 2-3 at Silent Shores Convention Centre in Mysuru, India. It was dedicated to exploring the theme of the evolving biofuel ecosystem in India and the growing investment opportunities within it. The event was further enriched by the valuable international collaborations established through partnerships with Tech4Fuels, OWI, and the FH Dortmund University of Applied Sciences and Arts.</p>
         <div className='flex justify-center items-center'>
-        {/* <button className="bg-gradient-to-r from-green-800 to-green-600 text-white text-2xl rounded-full px-10 py-4 m-2">
+        <button className="bg-gradient-to-r from-green-800 to-green-600 text-white text-2xl rounded-full px-10 py-4 m-2">
+        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfgfD4s1206cag5nlLotddp59iX4IcpkBfhLG0EPdtvaWXkeg/viewform?usp=dialog">
+
         Register
-        </button> */}
+        </a>
+        </button>
       </div>
         <div className='text-3xl md:text-5xl flex justify-center items-center border-y-[3px] border-black p-2 md:p-4 mx-5 md:mx-10 m-10 md:m-14 text-[#d39609]'>
           ICST 2025 Conclave
