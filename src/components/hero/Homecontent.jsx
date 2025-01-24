@@ -12,6 +12,7 @@ import Sponlogos from "./Sponlogos";
 import group35 from "../../assets/Group 35.svg";
 import FileDownloader from "../../components/Download";
 import broucher from "../../assets/Conference.pdf";
+import cbroucher from "../../assets/Conclave.pdf";
 import conference from "../../assets/conference.png";
 import { Link } from 'react-router-dom';
 import Flashnews from "./Flashnews"
@@ -112,7 +113,7 @@ function Homecontent() {
               </div>
               <div className="flex justify-center mt-4 ">
               <button class="bg-gogreen4 rounded-lg px-2 py-1 hover:text-logo2">
-                <Link to="/conclave">view Conclave
+                <Link to="/conclave">View Conclave
                 </Link></button>
               </div>
             </div>
@@ -127,8 +128,9 @@ function Homecontent() {
             </div>
           </div>
 
-          <div className="flex justify-center">
+          <div className="flex justify-center relative flex-wrap">
             <FileDownloader fileName="Conference Broucher" fileUrl={broucher} />
+            <FileDownloader fileName="Conclave Broucher" fileUrl={cbroucher} />
           </div>
         </div>
       </div>

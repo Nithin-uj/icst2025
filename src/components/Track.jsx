@@ -35,6 +35,14 @@ const TRACK_CARDS = [
       "Emissions Control Technologies",
     ],
     keynote: "Prof. Dr. Stephan Weyers",
+    keynoteDetails: {
+      name: "Dr. Stephan Weyers",
+      imglink:
+        "https://www.fh-dortmund.de/kontakt-daten/Weyers-Stephan.php.media/168538/Stephan_Weyers11510.jpg.scaled/ef0f8b9f2370859a2ac0382cf699453a.jpg",
+      designation: "Professor",
+      department:
+        "University of Applied Sciences and Arts [FH] Dortmund, Germany",
+    },
     image: Track1,
   },
   {
@@ -64,6 +72,14 @@ const TRACK_CARDS = [
       "Robots for Inspection and Maintenance",
     ],
     keynote: "Prof. Dr. Björn Schäfer",
+    keynoteDetails: {
+      name: "Dr. Björn Schäfer",
+      imglink:
+        "https://www.fh-dortmund.de/kontakt-daten/Schafer-Bjorn.php.media/131634/Bjoern-Schaefer_baege_222873-ret-2.jpg.scaled/90c843c75d17f0931c5d946dbc2f1790.jpg",
+      designation: "Professor",
+      department:
+        "University of Applied Sciences and Arts [FH] Dortmund, Germany",
+    },
     image: Track2,
   },
   {
@@ -95,6 +111,14 @@ const TRACK_CARDS = [
       "Electrochemical Sensors and Supercapacitors",
     ],
     keynote:"",
+    keynoteDetails: {
+      name: "Dr. Shaik Saboor",
+      imglink:
+        "https://vit.ac.in/system/files/styles/facultyfilter/private/15272.jpg?itok=o0hi0hv5",
+      designation: "Associate Professor",
+      department:
+        "School of Mechanical Engineering, Department of Thermal & Energy Engineering, VIT, Vellore",
+    },
     image: Track3,
   },
   {
@@ -120,6 +144,15 @@ const TRACK_CARDS = [
       "Regenerative Design",
       "Simulation and Rapid Prototyping",
     ],
+    keynote:"",
+    keynoteDetails: {
+      name: "Dr.E.V. S Kiran Kumar Donthu",
+      imglink:
+        "https://i1.rgstatic.net/ii/profile.image/962034527117316-1606378313222_Q512/D-E-V-S-Kiran-Kumar.jpg",
+      designation: "Assistant Professor",
+      department:
+        "Department of Architecture, Planning and Design, Indian Institute of Technology (IIT-BHU), Varanasi,Uttar Pradesh",
+    },
     image: Track4,
   },
   {
@@ -145,6 +178,15 @@ const TRACK_CARDS = [
       "Seniors and Electronics for Sustainability",
       "Signal Processing and Embedded Systems for Sustainability",
     ],
+    keynote:"",
+    keynoteDetails: {
+      name: "Prof R. Geetha Balakrishna",
+      imglink:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWHtL4_pbA-Mzchhdj98_K6eV4aPDWAuBKyQ&s",
+      designation: "FRSC Director",
+      department:
+        "Center for Nano and Material Sciences, JAIN (Deemed-to-be University), Bangalore, Editorial Advisory Board Member, ACS Energy Letters,Editorial Advisory Board Member, ACS Applied Engineering Materials",
+    },
     image: Track5,
   },
   {
@@ -172,6 +214,15 @@ const TRACK_CARDS = [
       "Zero-Energy Buildings",
       "Climate Resilience",
     ],
+    keynote:"",
+    keynoteDetails: {
+      name: "Dr.Rajkumar Buyya",
+      imglink:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu2gFLESHAmU0sMLl71ychpTXB3fWiP3Itng&s",
+      designation: "Director and Professor",
+      department:
+        "Cloud Computing and Distributed Systems (CLOUDS) Laboratory at the University of Melbourne, Australia and Founder of Manjrasoft",
+    },
     image: Track6,
   },
 ];
