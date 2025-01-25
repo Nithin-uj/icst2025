@@ -6,19 +6,13 @@ import noimage from "../../assets/noimage.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Grid } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import image1 from "../../assets/student/1thanusha.jpg"
-import image2 from "../../assets/student/2vikas.jpg"
-import image3 from "../../assets/student/3angelpaul.jpg"
-import image4 from "../../assets/student/4rohith.jpg"
-import image5 from "../../assets/student/5anirudh.jpg"
-import image6 from "../../assets/student/6suraj.jpg"
-import image7 from "../../assets/student/7vimal.jpg"
-import image8 from "../../assets/student/8prasthuthi.jpg"
-import image9 from "../../assets/student/9ananya.jpg"
-import image10 from "../../assets/student/10sanmith.jpg"
-import image11 from "../../assets/student/11smaran.jpg"
-import image12 from "../../assets/student/12joel.jpg"
-import image13 from "../../assets/student/13sinchana.jpg"
+import image1 from "../../assets/student/thanusha.jpg"
+import image2 from "../../assets/student/vikas.jpg"
+import image3 from "../../assets/student/Anirudh.png"
+import image4 from "../../assets/student/Vimal.png"
+import image5 from "../../assets/student/chaman.png"
+import image6 from "../../assets/student/prathamesh.jpg"
+
 
 function Section4() {
   const [tabs, setTabs] = useState(1);
@@ -474,61 +468,25 @@ const Student = () => {
       imglink: image2,
     },
     {
-      name: "Angel Paul",
-      department: "Dept. of AI ML, NIE, Mysuru",
-      imglink: image3,
-    },
-    {
-      name: "Rohith N",
-      department: "Dept. of MECH, NIE, Mysuru",
-      imglink: image4,
-    },
-    {
       name: "Anirudh Bharagav",
       department: "Dept. of MECH, NIE, Mysuru",
-      imglink: image5,
-    },
-    {
-      name: "Suraj M Gargeya",
-      department: "Dept. of MECH, NIE, Mysuru",
-      imglink: image6,
+      imglink: image3,
     },
     {
       name: "Vimal K A",
       department: "Dept. of CSE, NIE, Mysuru",
-      imglink: image7,
+      imglink: image4,
     },
     {
-      name: "Prasthuthi Gowda C R",
-      department: "Dept. of MECH, NIE, Mysuru",
-      imglink: image8,
+      name: "Chaman A S",
+      department: "Dept. of Mech, NIE, Mysuru",
+      imglink: image5,
     },
     {
-      name: "Ananya K A",
-      department: "Dept. of ECE, NIE, Mysuru",
-      imglink: image9,
+      name: "Prathamesh Mahesh Kulkarni",
+      department: "Dept. of Mech, NIE, Mysuru",
+      imglink: image6,
     },
-    {
-      name: "Sanmith Ravinarayan Rao",
-      department: "Dept. of ECE, NIE, Mysuru",
-      imglink: image10,
-    },
-    {
-      name: "Smaran A",
-      department: "Dept. of CSE, NIE, Mysuru",
-      imglink: image11,
-    },
-    {
-      name: "Joel Babu",
-      department: "Dept. of MECH, NIE, Mysuru",
-      imglink: image12,
-    },
-    {
-      name: "Sinchana G",
-      department: "Dept. of CSE, NIE, Mysuru",
-      imglink: image13,
-    },
-    
   ];
   const slides = Array.from({ length: 12 }, (_, i) => `Item ${i + 1}`);
   //   return <Slides data={data}/>
@@ -554,7 +512,7 @@ const Student = () => {
           },
           // Desktops
           1024: {
-            slidesPerView: 4, // 3 columns
+            slidesPerView: 3, // 3 columns
             grid: { rows: 2 }, // 2 rows
           },
         }}

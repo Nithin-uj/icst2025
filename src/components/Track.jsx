@@ -41,7 +41,7 @@ const TRACK_CARDS = [
         "https://www.fh-dortmund.de/kontakt-daten/Weyers-Stephan.php.media/168538/Stephan_Weyers11510.jpg.scaled/ef0f8b9f2370859a2ac0382cf699453a.jpg",
       designation: "Professor",
       department:
-        "University of Applied Sciences and Arts [FH] Dortmund, Germany",
+        "University of Applied Sciences and Arts [FH] Dortmund, Germany, Co-authored a paper titled The Carbon Market in 2020, Prof. Weyers is involved in the ASA program, which focuses on sustainable, decentralized energy generation and utilization technologie",
     },
     image: Track1,
   },
@@ -78,7 +78,7 @@ const TRACK_CARDS = [
         "https://www.fh-dortmund.de/kontakt-daten/Schafer-Bjorn.php.media/131634/Bjoern-Schaefer_baege_222873-ret-2.jpg.scaled/90c843c75d17f0931c5d946dbc2f1790.jpg",
       designation: "Professor",
       department:
-        "University of Applied Sciences and Arts [FH] Dortmund, Germany",
+        "University of Applied Sciences and Arts [FH] Dortmund, Germany, Prof. Schäfer delivered a lecture titled Sustainable mobility - global goals, local measures on January 24, 2023",
     },
     image: Track2,
   },
