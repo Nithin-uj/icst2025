@@ -56,11 +56,11 @@ const TrackPopup = ({ track, title, description, points, keynote, keynoteDetails
 
       {isKeynoteVisible && (
         <div 
-          className="fixed inset-0 bg-black/50 flex justify-center items-center z-50 py-4 md:py-20"
+          className="fixed inset-0 bg-black/50 flex justify-center items-center z-50 px-3 py-4 md:py-20"
           onClick={hideKeynote}
         >
           <div 
-            className="w-11/12 h-full max-w-2xl bg-gogreen4 p-8 rounded-3xl shadow-lg text-white relative overflow-scroll no-scrollbar"
+            className="w-11/12 h-2xl max-w-2xl bg-gogreen4 p-8 rounded-3xl shadow-lg text-white relative overflow-scroll no-scrollbar"
             onClick={e => e.stopPropagation()}
           >
             <button
@@ -71,17 +71,10 @@ const TrackPopup = ({ track, title, description, points, keynote, keynoteDetails
               ×
             </button>
             <h2 className="text-2xl font-bold font-['Poppins'] mb-6 sticky">{title}</h2>
-            {/* <ul className="space-y-3 list-disc list-inside">
-              {keynoteDetails.map((point, index) => (
-                <li key={`point-${index}`} className="text-base font-['Poppins']">
-                  {point}
-                </li>
-              ))}
-            </ul> */}
             
               <div className="font-semibold text-center">{keynoteDetails.type}</div>
               <div className="h-full flex flex-col justify-around">
-                <div className="flex justify-center">
+                <div className="flex justify-center p-5">
                   <img
                     src={!!keynoteDetails.imglink ? keynoteDetails.imglink : noimage}
                     className="rounded-full w-44 md:w-36"
@@ -122,6 +115,8 @@ const TrackPopup = ({ track, title, description, points, keynote, keynoteDetails
             
           </div>
         </div>
+
+
         // <></>
       )}
 
