@@ -2,7 +2,7 @@
   "name": "icst2025",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://icst.edugiri.cloud",
+  "homepage": "https://edugiri.cloud",
   "dependencies": {
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",

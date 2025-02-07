@@ -5,7 +5,7 @@ const FlashNews = () => {
   const [showLink, setShowLink] = useState(false); // State to control link visibility
 
   const newsList = [
-    "📝 Last date for paper submision is extended to 10th Jan 2025",
+    "📝 Last date for Early Bird registration is extended to 10th Feb 2025",
   ];
 
   useEffect(() => {
@@ -68,9 +68,9 @@ const FlashNews = () => {
         </div>
       )}
       {showLink && ( // Conditionally render the link
-        <div className="mt-2 animate-pulse duration-150"> {/* Added animation to the link as well */}
+        <div className="mt-2 animate-pulse duration-150 text-center"> {/* Added animation to the link as well */}
           <span className="text-sm md:text-xl">
-              Notification of Acceptance will be communicated to the Corresponding Author by Monday 27 Jan 2025...
+            Notification of Acceptance will be communicated to the Corresponding Author by Monday 27 Jan 2025...
           </span>
         </div>
       )}

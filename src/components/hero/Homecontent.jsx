@@ -16,6 +16,11 @@ import cbroucher from "../../assets/Conclave.pdf";
 import conference from "../../assets/conference.png";
 import { Link } from 'react-router-dom';
 import Flashnews from "./Flashnews"
+import cinvite from "../../assets/cinvitation.pdf";
+import cposter from "../../assets/cposter.pdf";
+
+
+
 
 function Homecontent() {
   return (
@@ -28,6 +33,8 @@ function Homecontent() {
             </div>
           </div>
           <h1 className="text-center text-5xl font-bold my-5">ICST - 2025</h1>
+          <h1 className="text-center text-4xl font-bold my-5">2nd International conclave on Sustainable Technologies for MSME sector</h1>
+
           <div className="font-semibold my-5 flex justify-center w-full">
             <div className="md:w-7/12 text-center z-10">
               Join us for an inspiring event where industry leaders,
@@ -48,6 +55,11 @@ function Homecontent() {
           className="float-start absolute left-0 w-52 md:w-64 -bottom-3 md:-bottom-5"
         />
         <Flashnews/>
+        <div className="flex justify-center relative flex-wrap">
+            <FileDownloader fileName="Conclave Invitaion" fileUrl={cinvite} />
+            <FileDownloader fileName="Conclave Poster Template" fileUrl={cposter} />
+          </div>
+
         <div className="text-black relative">
           <div className="md:flex m-10 md:flex-wrap justify-center text-white md:justify-evenly">
             <div className=" bg-gogreen md:w-72 m-1 rounded-md shadow-2xl shadow-slate-600 p-5">
