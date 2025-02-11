@@ -1,5 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import profile_icon from "../../assets/profile_icon.png";
+import Spon1 from "../../assets/Spon1.png";
+import Spon2 from "../../assets/Spon2.svg";
+import Spon3 from "../../assets/Spon3.jpg";
+import Spon4 from "../../assets/Spon4.png";
+import Alum1 from "../../assets/Alum1.jpg";
+
 
 const CardSlider = () => {
   const sliderRef = useRef(null);
@@ -13,7 +19,7 @@ const CardSlider = () => {
     const scrollInterval = 30; // Interval time in milliseconds
 
     const scroll = () => {
-      if (slider.scrollLeft >= slider.scrollWidth / 2) {
+      if (slider.scrollLeft >= slider.scrollWidth /2) {
         // Reset to the start when halfway through duplicated content
         slider.scrollLeft = 0;
       } else {
@@ -27,34 +33,60 @@ const CardSlider = () => {
   }, []);
 
   const cards = [
-    { id: 1, title: "Card 1", description: "This is the first card." },
-    { id: 2, title: "Card 2", description: "This is the second card." },
-    { id: 3, title: "Card 3", description: "This is the third card." },
-    { id: 4, title: "Card 4", description: "This is the fourth card." },
-    { id: 5, title: "Card 5", description: "This is the fifth card." },
+    { id: 1, title: "SCHEVARAN", description: "This is the first card.", image:Spon1 },
+    { id: 2, title: "AUTODESK", description: "This is the second card.", image:Spon2 },
+    { id: 3, title: "BRITT", description: "This is the third card.", image:Spon3 },
+    { id: 4, title: "SDMIMD", description: "This is the fourth card.", image:Spon4 },
   ];
 
+  const alumnus = [
+    {id:1, name:"Ravishankar", image:Alum1 }
+  ]
+
   // Duplicate cards to create seamless loop
-  const loopingCards = [...cards, ...cards];
+  const loopingCards = [...cards, ...cards, ...cards];
+  const loopingalumnus = [...alumnus];
 
   return (
-    <div className="overflow-hidden py-4 px-3" >
-      <div
-        ref={sliderRef}
-        className="flex space-x-10 p-4 overflow-x-scroll no-scrollbar"
-      >
-        {loopingCards.map((card, index) => (
-          <div
-            key={index}
-            className="min-w-[300px] bg-white shadow-md shadow-slate-600 rounded-lg p-4 flex-shrink-0"
-          >
-            <div className="flex justify-center"><img src={profile_icon} alt=""/></div>
-            <h3 className="text-lg font-bold text-center">{card.title}</h3>
-            <p className="text-sm text-gray-600 text-center">{card.description}</p>
-          </div>
-        ))}
+    <div>
+      <div className="overflow-hidden py-4 px-3" >
+        <div
+          ref={sliderRef}
+          className="flex space-x-10 p-4 overflow-x-scroll no-scrollbar"
+        >
+          {loopingCards.map((card, index) => (
+            <div
+              key={index}
+              className="min-w-[300px] bg-white shadow-md shadow-slate-600 rounded-lg p-4 flex-shrink-0"
+            >
+              <div className="flex justify-center overflow-hidden"><img className="object-contain w-44 h-44" src={card.image} alt=""/></div>
+              <h3 className="text-lg font-bold text-center">{card.title}</h3>
+              {/* <p className="text-sm text-gray-600 text-center">{card.description}</p> */}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+      <div className="overflow-hidden py-4 px-3" >
+        <div className="text-gogreen text-2xl font-bold text-center my-4 md:my-8">
+        Our Proud Alumnus Sponsors
+        </div>
+        <div
+          // ref={sliderRef}
+          className="flex space-x-10 p-4 overflow-x-scroll no-scrollbar justify-center"
+        >
+          {loopingalumnus.map((alumnus, index) => (
+            <div
+              key={index}
+              className="min-w-[300px] bg-white shadow-md shadow-slate-600 rounded-lg p-4 flex-shrink-0"
+            >
+              <div className="flex justify-center overflow-hidden"><img className=" w-44 h-44 rounded-full" src={alumnus.image} alt=""/></div>
+              <h3 className="text-lg font-bold text-center pt-4">{alumnus.name}</h3>
+            </div>
+          ))}
+        </div>
+      </div>
+      
+    </div>    
   );
 };
 

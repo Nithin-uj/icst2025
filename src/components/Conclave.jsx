@@ -12,6 +12,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronRight, FaChevronLeft, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import FileDownloader from "../components/Download";
+import cinvite from "../assets/cinvitation.pdf";
+import cposter from "../assets/cposter.pdf";
 
 const SponsorshipData = [
   {
@@ -231,6 +234,14 @@ function Conclave() {
           <div>Venue : Diamond Jubilee Sports Complex, NIE, Mysore, India</div>
         </div>
       </div>
+      
+      <div className="flex justify-center md:gap-12 relative flex-wrap pt-4">
+      
+        <FileDownloader fileName="Conclave Invitaion" fileUrl={cinvite} />
+        <FileDownloader fileName="Conclave Poster Template" fileUrl={cposter} />
+      </div>
+      <hr className="border border-black border-dotted my-2 mx-20" />
+
       <div className='p-3 md:p-6 md:px-[80px] md:pb-1 text-xl'>
         <p className='m-6 md:m-10 text-xl md:text-xl'>In our rapidly evolving world, sustainable technology is becoming essential for addressing pressing environmental challenges. Non-renewable energy sources, while still prominent, are finite and contribute significantly to greenhouse gas emissions and climate change. Sustainable technology offers renewable and environmentally responsible alternatives that can reduce these impacts and support a healthier planet.</p>
 

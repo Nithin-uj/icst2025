@@ -132,13 +132,13 @@ function Registration() {
           </button>
         </div>  
       </div>
-      <hr className="border border-black border-dotted my-2 mx-20" />
+      {/* <hr className="border border-black border-dotted my-2 mx-20" />
 
       <div className="flex justify-center md:gap-12 relative flex-wrap">
 
         <FileDownloader fileName="Conclave Invitaion" fileUrl={cinvite} />
         <FileDownloader fileName="Conclave Poster Template" fileUrl={cposter} />
-      </div>
+      </div> */}
 
       <div>
         <hr className="border border-black border-dotted my-2 mx-20" />
