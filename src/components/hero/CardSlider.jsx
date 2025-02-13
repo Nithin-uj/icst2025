@@ -68,7 +68,7 @@ const CardSlider = () => {
       </div>
       <div className="overflow-hidden py-4 px-3" >
         <div className="text-gogreen text-2xl font-bold text-center my-4 md:my-8">
-        Our Proud Alumnus Sponsors
+        Our Proud Alumni Sponsors
         </div>
         <div
           // ref={sliderRef}

@@ -192,7 +192,7 @@ function Homecontent() {
         </div>
         <div className="text-slate-900">
           <div className="text-gogreen text-2xl font-bold text-center my-4 md:my-8">
-            Meet Our Sponsors
+          Our Proud Industry And Academia Sponsors
           </div>
           <CardSlider />
         </div>
