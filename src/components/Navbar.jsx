@@ -23,14 +23,17 @@ const Navbar = () => {
     else if(mdata === '/track'){
       setMenu(5);
     }
-    else if(mdata === '/registration'){
+    else if(mdata === '/speakers'){
       setMenu(6);
     }
-    else if(mdata === '/conclave'){
+    else if(mdata === '/registration'){
       setMenu(7);
     }
-    else if(mdata === '/contact-us'){
+    else if(mdata === '/conclave'){
       setMenu(8);
+    }
+    else if(mdata === '/contact-us'){
+      setMenu(9);
     }
     else{
       setMenu(0);
@@ -55,9 +58,10 @@ const Navbar = () => {
             <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/committee" className={`${menu == 3 && 'underline decoration-4 decoration-logo3'}`}>Committee</Link></a>
             <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/call-for-papers" className={`${menu == 4 && 'underline decoration-4 decoration-logo3'}`}>Call For Papers</Link></a>
             <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/track" className={`${menu == 5 && 'underline decoration-4 decoration-logo3'}`}>Track</Link></a>
-            <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/registration" className={`${menu == 6 && 'underline decoration-4 decoration-logo3'}`}>Registration</Link></a>
-            <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/conclave" className={`${menu == 7 && 'underline decoration-4 decoration-logo3'}`}>Conclave</Link></a>
-            <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/contact-us" className={`${menu == 8 && 'underline decoration-4 decoration-logo3'}`}>Contact Us</Link></a>
+            <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/speakers" className={`${menu == 6 && 'underline decoration-4 decoration-logo3'}`}>Speakers</Link></a>
+            <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/registration" className={`${menu == 7 && 'underline decoration-4 decoration-logo3'}`}>Registration</Link></a>
+            <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/conclave" className={`${menu == 8 && 'underline decoration-4 decoration-logo3'}`}>Conclave</Link></a>
+            <a className="hover:text-logo2 hover:cursor-pointer"><Link to="/contact-us" className={`${menu == 9 && 'underline decoration-4 decoration-logo3'}`}>Contact Us</Link></a>
           </div>
 
           <div className="md:hidden">
@@ -93,9 +97,10 @@ const Navbar = () => {
             <Link to={"/committee"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 3 && 'underline decoration-4 decoration-logo3'} `} onClick={()=>{setIsOpen(!isOpen)}}>Committee</Link>
             <Link to={"/call-for-papers"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 4 && 'underline decoration-4 decoration-logo3'} `} onClick={()=>{setIsOpen(!isOpen)}}>Call For Papers</Link>
             <Link to={"/track"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 5 && 'underline decoration-4 decoration-logo3'} `} onClick={()=>{setIsOpen(!isOpen)}}>Track</Link>
-            <Link to={"/registration"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 6 && 'underline decoration-4 decoration-logo3'} `} onClick={()=>{setIsOpen(!isOpen)}}>Registration</Link>
-            <Link to={"/conclave"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 7 && 'underline decoration-4 decoration-logo3'}`} onClick={()=>{setIsOpen(!isOpen)}}>Conclave</Link>
-            <Link to={"/contact-us"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 8 && 'underline decoration-4 decoration-logo3'}`} onClick={()=>{setIsOpen(!isOpen)}}>Contact Us</Link>
+            <Link to={"/speakers"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 6 && 'underline decoration-4 decoration-logo3'} `} onClick={()=>{setIsOpen(!isOpen)}}>Speakers</Link>
+            <Link to={"/registration"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 7 && 'underline decoration-4 decoration-logo3'} `} onClick={()=>{setIsOpen(!isOpen)}}>Registration</Link>
+            <Link to={"/conclave"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 8 && 'underline decoration-4 decoration-logo3'}`} onClick={()=>{setIsOpen(!isOpen)}}>Conclave</Link>
+            <Link to={"/contact-us"} className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-gogreen3 ${menu == 9 && 'underline decoration-4 decoration-logo3'}`} onClick={()=>{setIsOpen(!isOpen)}}>Contact Us</Link>
           </div>
         </div>
       )}

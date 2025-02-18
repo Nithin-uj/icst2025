@@ -1,10 +1,12 @@
 import React, { useRef, useEffect } from "react";
-import profile_icon from "../../assets/profile_icon.png";
 import Spon1 from "../../assets/Spon1.png";
 import Spon2 from "../../assets/Spon2.svg";
 import Spon3 from "../../assets/Spon3.jpg";
 import Spon4 from "../../assets/Spon4.png";
+import Spon5 from "../../assets/Spon5.jpg";
 import Alum1 from "../../assets/Alum1.jpg";
+import Alum2 from "../../assets/Alum2.jpg";
+
 
 
 const CardSlider = () => {
@@ -37,10 +39,14 @@ const CardSlider = () => {
     { id: 2, title: "AUTODESK", description: "This is the second card.", image:Spon2 },
     { id: 3, title: "BRITT", description: "This is the third card.", image:Spon3 },
     { id: 4, title: "SDMIMD", description: "This is the fourth card.", image:Spon4 },
+    { id: 5, title: "GREENERIA", description: "This is the fourth card.", image:Spon5 },
+
   ];
 
   const alumnus = [
-    {id:1, name:"Ravishankar", image:Alum1 }
+    {id:1, name:"Mr. Ravishankar", image:Alum1 },
+    {id:2, name:"Mr. Hareesh Ramanna", image:Alum2 },
+
   ]
 
   // Duplicate cards to create seamless loop

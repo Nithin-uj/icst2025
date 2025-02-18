@@ -9,6 +9,8 @@ import ContactUs from './components/ContactUs';
 import Callforpapers from "./components/Callforpapers";
 import Registration from "./components/Registration";
 import Conclave from "./components/Conclave";
+import Speakers from "./components/Speakers";
+
 // import About from "./components/About";
 // import Contact from "./components/Contact";
 function App() {
@@ -24,6 +26,7 @@ function App() {
         <Route path="/committee" element={<Committee />} />
         <Route path="/track" element={<Track />} />
         <Route path="/conclave" element={<Conclave />} /> 
+        <Route path="/speakers" element={<Speakers />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>

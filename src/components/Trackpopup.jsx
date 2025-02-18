@@ -38,12 +38,12 @@ const TrackPopup = ({ track, title, description, points, keynote, keynoteDetails
               <h3 className="text-white">  {keynote}</h3>
           </div> */}
           <div className="flex justify-end flow-root">
-            <button 
+            {/* <button 
               onClick={showKeynote}
-              className="bg-green-900 text-white float-left px-6 py-2 rounded-lg text-sm font-medium font-['Poppins'] hover:bg-green-800 transition-colors"
+              className="bg-green-900 text-white float-left mb-1 px-6 py-2 rounded-lg text-sm font-medium font-['Poppins'] hover:bg-green-800 transition-colors"
             >
               View KeyNote Speaker
-            </button>
+            </button> */}
             <button 
               onClick={showPopup}
               className="bg-green-900 text-white float-right px-6 py-2 rounded-lg text-sm font-medium font-['Poppins'] hover:bg-green-800 transition-colors"

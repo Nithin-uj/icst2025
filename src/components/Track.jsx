@@ -71,14 +71,14 @@ const TRACK_CARDS = [
       "Automated Construction",
       "Robots for Inspection and Maintenance",
     ],
-    keynote: "Prof. Dr. Björn Schäfer",
+    keynote: "Prof. Hui-Kai Su",
     keynoteDetails: {
-      name: "Dr. Björn Schäfer",
+      name: "Prof. Hui-Kai Su",
       imglink:
         "https://www.fh-dortmund.de/kontakt-daten/Schafer-Bjorn.php.media/131634/Bjoern-Schaefer_baege_222873-ret-2.jpg.scaled/90c843c75d17f0931c5d946dbc2f1790.jpg",
       designation: "Professor",
       department:
-        "University of Applied Sciences and Arts [FH] Dortmund, Germany, Prof. Schäfer delivered a lecture titled Sustainable mobility - global goals, local measures on January 24, 2023",
+        "National Formosa University, Taiwan",
     },
     image: Track2,
   },
@@ -112,12 +112,12 @@ const TRACK_CARDS = [
     ],
     keynote:"",
     keynoteDetails: {
-      name: "Dr. Shaik Saboor",
+      name: "Dr. R Geetha Balakrishna",
       imglink:
         "https://vit.ac.in/system/files/styles/facultyfilter/private/15272.jpg?itok=o0hi0hv5",
       designation: "Associate Professor",
       department:
-        "School of Mechanical Engineering, Department of Thermal & Energy Engineering, VIT, Vellore",
+        "Jain (Deemed to be) University, Bangalore",
     },
     image: Track3,
   },
@@ -157,7 +157,7 @@ const TRACK_CARDS = [
   },
   {
     track: "TRACK 5",
-    title: "Green Computing for Sustainabilityble",
+    title: "Green Computing for Sustainability",
     description:
       "This overview explores advanced IT energy-aware technologies, including green computing, e-waste management, and power-efficient designs, while highlighting smart grids, sustainability-focused sensors, and technology as green enablers.",
     points: [
@@ -180,18 +180,18 @@ const TRACK_CARDS = [
     ],
     keynote:"",
     keynoteDetails: {
-      name: "Prof R. Geetha Balakrishna",
+      name: "Prof. RajKumar Buyya,",
       imglink:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWHtL4_pbA-Mzchhdj98_K6eV4aPDWAuBKyQ&s",
       designation: "FRSC Director",
       department:
-        "Center for Nano and Material Sciences, JAIN (Deemed-to-be University), Bangalore, Editorial Advisory Board Member, ACS Energy Letters,Editorial Advisory Board Member, ACS Applied Engineering Materials",
+        "University of Melbourne - Australia",
     },
     image: Track5,
   },
   {
     track: "TRACK 6",
-    title: "Environment & Green Buildings for Sustainable Developmentinable",
+    title: "Environment & Green Buildings for Sustainable Development",
     description:
       "This overview emphasizes green building design, integrating energy-efficient systems, rainwater harvesting, and sustainable materials while addressing smart grids, zero-energy buildings, and climate-resilient infrastructure.",
     points: [
@@ -216,12 +216,12 @@ const TRACK_CARDS = [
     ],
     keynote:"",
     keynoteDetails: {
-      name: "Dr.Rajkumar Buyya",
+      name: "Dr. Sheikh Sabor",
       imglink:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu2gFLESHAmU0sMLl71ychpTXB3fWiP3Itng&s",
       designation: "Director and Professor",
       department:
-        "Cloud Computing and Distributed Systems (CLOUDS) Laboratory at the University of Melbourne, Australia and Founder of Manjrasoft",
+        "VIT, Vellore",
     },
     image: Track6,
   },
